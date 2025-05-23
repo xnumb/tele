@@ -136,6 +136,10 @@ func (b *Bot) OnError(err error, c Context) {
 	b.onError(err, c)
 }
 
+func (b *Bot) Info() *User {
+	return b.Me
+}
+
 func (b *Bot) debug(err error) {
 	if b.verbose {
 		b.OnError(err, nil)
