@@ -1,4 +1,4 @@
-module github.com/xnumb/telebot
+module github.com/xnumb/tele
 
 go 1.16
 
