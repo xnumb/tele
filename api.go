@@ -5,6 +5,8 @@ import "io"
 // API is the interface that wraps all basic methods for interacting
 // with Telegram Bot API.
 type API interface {
+	Info() *User
+	
 	Raw(method string, payload interface{}) ([]byte, error)
 
 	Accept(query *PreCheckoutQuery, errorMessage ...string) error
