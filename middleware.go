@@ -1,4 +1,4 @@
-package telebot
+package tele
 
 // MiddlewareFunc represents a middleware processing function,
 // which get called before the endpoint group or specific handler.

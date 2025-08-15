@@ -1,4 +1,4 @@
-package telebot
+package tele
 
 import (
 	"fmt"

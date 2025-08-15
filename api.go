@@ -1,4 +1,4 @@
-package telebot
+package tele
 
 import "io"
 
@@ -6,7 +6,7 @@ import "io"
 // with Telegram Bot API.
 type API interface {
 	Info() *User
-	
+
 	Raw(method string, payload interface{}) ([]byte, error)
 
 	Accept(query *PreCheckoutQuery, errorMessage ...string) error

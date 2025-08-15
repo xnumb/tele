@@ -24,7 +24,7 @@
 //
 //		b.Start()
 //	}
-package telebot
+package tele
 
 import "errors"
 
